@@ -1,0 +1,27 @@
+{
+  "name": "shark-skeleton-quiz",
+  "version": "1.0.0",
+  "description": "A quiz application about the shark skeleton with interactive elements.",
+  "main": "src/js/main.js",
+  "scripts": {
+    "build": "tailwindcss build src/css/styles.css -o src/css/output.css",
+    "start": "live-server src"
+  },
+  "keywords": [
+    "quiz",
+    "shark",
+    "skeleton",
+    "interactive",
+    "education"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^2.2.19",
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {
+    "postcss": "^8.3.6",
+    "autoprefixer": "^10.3.1"
+  }
+}
